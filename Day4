@@ -1,0 +1,13 @@
+//Story 1
+// define Car constructor function in order to create custom Car() objects later
+var Car = function(make, modelYear, color) {
+this.make = make;
+this.modelYear = modelYear;
+this.color = color;
+this.getCar = function() {return this.make + " " + this.modelYear + " " + this.color;};
+};
+// instantiate a Person object and store it in the Sports variable
+var Sports = new Car("Honda", 2010, 'Black');
+console.log(Sports.getCar());
+
+//Story 2
